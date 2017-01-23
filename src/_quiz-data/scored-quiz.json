@@ -1,0 +1,385 @@
+{
+	"Quiz": {
+		"Title": "Football",
+		"Description": "For fans, nothing’s more exciting that football. And understanding the physics, aerodynamics, geometry, and engineering behind the sport can give you an even greater appreciation for how it all comes together.",
+		"Type": "Scored",
+		"Replayable": true,
+		"QuizIcon": false,
+		"TryAgain": false,
+		"Questions": [
+			{
+				"QuestionText": "Linemen tend to be slower than backs and receivers and they often  have larger, more massive bodies. This means their bodies have more _____.",
+				"QuestionImage": false,
+				"Shuffle": true,
+				"Answers": [{
+						"AnswerImage": false,
+						"AnswerText": "Inertia",
+						"IsCorrect": true,
+						"Explanation": "Fun Fact:  Inertial mass is the more correct term, but might be confusing so keep it as “Inertia.” When talking about a football game, these terms are interchangeable."
+					},
+					{
+						"AnswerImage": false,
+						"AnswerText": "Gravity",
+						"IsCorrect": false,
+						"Explanation": "Gravity is a force that attracts a body toward the center of earth, or toward any other physical body having mass. The correct answer is Inertia: Linemen’s bodies have more inertia. Inertia refers to a property of matter that causes it to resist changes in velocity (speed and/or direction). The more inertia that an object has, the more mass that it has. A more massive object has a greater tendency to resist changes in its state of motion."
+					},
+					{
+						"AnswerImage": false,
+						"AnswerText": "Motion",
+						"IsCorrect": false,
+						"Explanation": "Motion refers to the action or process of moving or being moved. The correct answer is Inertia - Linemen’s bodies have more inertia. Inertia refers to a property of matter that causes it to resist changes in velocity (speed and/or direction). The more inertia that an object has, the more mass that it has. A more massive object has a greater tendency to resist changes in its state of motion."
+					},
+					{
+						"AnswerImage": false,
+						"AnswerText": "Flexibility",
+						"IsCorrect": false,
+						"Explanation": "Flexibility refers to the quality of bending easily without breaking. The correct answer is Inertia: Linemen’s bodies have more inertia. Inertia refers to a property of matter that causes it to resist changes in velocity (speed and/or direction). The more inertia that an object has, the more mass that it has. A more massive object has a greater tendency to resist changes in its state of motion."
+					}
+				]
+			},
+			{
+				"QuestionText": "Newton’s Third Law of Motion states that for every action there is an equal and opposite reaction. An example of Newton’s Third Law of Motion in football would be when a kicker kicks a football. What is action?",
+				"QuestionImage": false,
+				"Shuffle": false,
+				"Answers": [{
+					"AnswerImage": false,
+					"AnswerText": "When one object exerts a force on a second object",
+					"IsCorrect": true,
+					"Explanation": "Fun Fact: As described in the Third Law of Motion, an opposite reaction is the football applying a force back to the player’s foot/leg (which is the impact they feel!)."
+				},
+				{
+					"AnswerImage": false,
+					"AnswerText": "When an object remains stationary",
+					"IsCorrect": false,
+					"Explanation": "The correct answer is Action. Action refers to when one object exerts a force on a second object. When a football player kicks a football, his leg exerts a force on the football."
+				},
+				{
+					"AnswerImage": false,
+					"AnswerText": "When an object falls",
+					"IsCorrect": false,
+					"Explanation": "The correct answer is Action. Action refers to when one object exerts a force on a second object. When a football player kicks a football, his leg exerts a force on the football."
+				},
+				{
+					"AnswerImage": false,
+					"AnswerText": "None of the above",
+					"IsCorrect": false,
+					"Explanation": "The correct answer is Action. Action refers to when one object exerts a force on a second object. When a football player kicks a football, his leg exerts a force on the football."
+				}
+			]
+		},
+		{
+			"QuestionText": "When the football spins around the x axis- or horizontal axis- it ________.",
+			"QuestionImage": false,
+			"Shuffle": true,
+			"Answers": [{
+				"AnswerImage": false,
+				"AnswerText": "Drops the ball to the ground",
+				"IsCorrect": false,
+				"Explanation": "The correct answer is Keeps the ball on its intended path. When the football spins around the x axis, it keeps the ball on its intended path."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "Moves the ball in the wrong direction",
+				"IsCorrect": false,
+				"Explanation": "The correct answer is Keeps the ball on its intended path. When the football spins around the x axis, it keeps the ball on its intended path."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "Becomes harder to catch",
+				"IsCorrect": false,
+				"Explanation": " The correct answer is Keeps the ball on its intended path. When the football spins around the x axis, it keeps the ball on its intended path."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "Keeps the ball on its intended path",
+				"IsCorrect": true,
+				"Explanation": "Fun Fact: Spinning the ball, or adding angular momentum, keeps the ball from tumbling wildly, and provides additional aerodynamic forces for straight flight."
+			}
+			]
+		},
+		{
+			"QuestionText": "A player puts a spin on a football when they throw it or kick it. The spin creates air flow over the ball as it travels, reducing drag and the effects of air resistance. Spin also helps counter the impact of  ________, which is always trying to pull the ball to the ground.",
+			"QuestionImage": false,
+			"Shuffle": true,
+			"Answers": [{
+				"AnswerImage": false,
+				"AnswerText": "Electrostatic force",
+				"IsCorrect": false,
+				"Explanation": "The correct answer is Gravity: Gravity is always trying to pull the ball to the ground. Gravity is the force that attracts a body toward the center of the earth, or toward any other physical body having mass.."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "Gravity",
+				"IsCorrect": true,
+				"Explanation": ""
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "Air resistance",
+				"IsCorrect": false,
+				"Explanation": "The correct answer is Gravity: Gravity is always trying to pull the ball to the ground. Gravity is the force that attracts a body toward the center of the earth, or toward any other physical body having mass."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "Magnetic force",
+				"IsCorrect": false,
+				"Explanation": "The correct answer is Gravity: Gravity is always trying to pull the ball to the ground. Gravity is the force that attracts a body toward the center of the earth, or toward any other physical body having mass."
+			}]
+		},
+		{
+			"QuestionText": "The engineering and design of sports equipment keeps players safe and playing at the top of their game. A(n) ________ inside a helmet softens the impact of a hit on the head.",
+			"QuestionImage": false,
+			"Shuffle": true,
+			"Answers": [{
+				"AnswerImage": false,
+				"AnswerText": "Air bladder",
+				"IsCorrect": true,
+				"Explanation": "Fun Fact: The air bladder provides the same protection as foam padding, reducing deceleration of the head on impact."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "Chin strap",
+				"IsCorrect": false,
+				"Explanation": "The correct answer is Air Bladder: The air bladder is located inside the helmet and softens the impact of a hit on the head. Players inflate the air bladder in their helmet to customize the fit and minimize the transfer of impact through the helmet."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "Face mask",
+				"IsCorrect": false,
+				"Explanation": "The correct answer is Air Bladder: The air bladder is located inside the helmet and softens the impact of a hit on the head. Players inflate the air bladder in their helmet to customize the fit and minimize the transfer of impact through the helmet."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "Polycarbonate shell",
+				"IsCorrect": false,
+				"Explanation": "The correct answer is Air Bladder: The air bladder is located inside the helmet and softens the impact of a hit on the head. Players inflate the air bladder in their helmet to customize the fit and minimize the transfer of impact through the helmet."
+			}]
+		},
+		{
+			"QuestionText": "Major technological advances have changed the way we watch and play football. Which technological advances exist today?",
+			"QuestionImage": false,
+			"Shuffle": false,
+			"Answers": [{
+				"AnswerImage": false,
+				"AnswerText": "Players and coaches communicate real-time on the field via radios inside players’ helmets and coaches’ headsets",
+				"IsCorrect": false,
+				"Explanation": "Not quite, nice try! The correct answer is All of the above. In addition to innovations in radio, tablets are used to review and recall plays, and football gloves have a neoprene covering that helps players grip the ball and stay warm during the game."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "Tablets are used to review and recall plays",
+				"IsCorrect": false,
+				"Explanation": "Almost, well done! The correct answer is All of the above. In addition to tablets, players and coaches communicate real-time on the field via radios inside players’ helmets and coaches’ headsets. Football gloves have also come a long way, since they now have a neoprene covering that helps players grip the football and keep their hands warm during a game."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "Football gloves have a neoprene covering that helps players grip the football and keep their hands warm during the game",
+				"IsCorrect": false,
+				"Explanation": "You are partially correct, good job! The correct answer is All of the above. In addition to advancements in football gloves, other technological advancements that have taken place include innovative tablets for reviewing plays and teams communicating real-time on the field via radios inside helmets and headsets.   "
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "All of the above",
+				"IsCorrect": true,
+				"Explanation": ""
+			}]
+		},
+		{
+			"QuestionText": "The amount of force and placement in a kickoff will determine how far and in what direction the football can travel. What is a force?",
+			"QuestionImage": false,
+			"Shuffle": false,
+			"Answers": [{
+				"AnswerImage": false,
+				"AnswerText": "A push that acts upon an object to speed up or to change its direction",
+				"IsCorrect": false,
+				"Explanation": "Almost! The correct answer is both A push that acts upon an object to speed up or to change its direction AND A pull that causes an object to slow down its motion."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "A form of gravity",
+				"IsCorrect": false,
+				"Explanation": "This is part of the answer. The correct answer is both A push that acts upon an object to speed up or to change its direction AND A pull that causes an object to slow down its motion."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "A pull that causes an object to slow down its motion",
+				"IsCorrect": false,
+				"Explanation": "You are partially correct! This is part of the answer. The correct answer is both A push that acts upon an object to speed up or to change its direction AND A pull that causes an object to slow down its motion."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "Both A and C",
+				"IsCorrect": true,
+				"Explanation": ""
+			}]
+		},
+		{
+			"QuestionText": "The distance and speed of a punt depends on the angle of the kick. The optimal angle from which the kicker should direct the ball is between ______.",
+			"QuestionImage": false,
+			"Shuffle": true,
+			"Answers": [{
+				"AnswerImage": false,
+				"AnswerText": "42 and 45 degrees",
+				"IsCorrect": true,
+				"Explanation": "Fun Fact: The absolutely correct answer would be 45 degrees exactly in the absence of air resistance. With air resistance, a slightly lower angle helps the ball travel farther, while a higher angle gives the ball higher “hang” time, which is why punts are angled so high up."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "85 and 90 degrees",
+				"IsCorrect": false,
+				"Explanation": "The correct answer is between 42 and 45 degrees: The optimal angle from which the kicker should launch the ball is between 42 and 45 degrees, as measured against the straight line that runs between the ball and the goalposts. A 45-degree projection angle maximizes the horizontal distance of a punt kick."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "80 and 85 degrees",
+				"IsCorrect": false,
+				"Explanation": "The correct answer is between 42 and 45 degrees: The optimal angle from which the kicker should launch the ball is between 42 and 45 degrees, as measured against the straight line that runs between the ball and the goalposts. A 45-degree projection angle maximizes the horizontal distance of a punt kick."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "22 and 25 degrees",
+				"IsCorrect": false,
+				"Explanation": "The correct answer is between 42 and 45 degrees: The optimal angle from which the kicker should launch the ball is between 42 and 45 degrees, as measured against the straight line that runs between the ball and the goalposts. A 45-degree projection angle maximizes the horizontal distance of a punt kick. "
+			}]
+		},
+		{
+			"QuestionText": "To maximize how far a football can fly, its shape and spin are optimized to introduce a force that helps oppose the effect of gravity and that is stronger than the  weight of the football. That force is called ______.",
+			"QuestionImage": false,
+			"Shuffle": true,
+			"Answers": [{
+				"AnswerImage": false,
+				"AnswerText": "Lift",
+				"IsCorrect": true,
+				"Explanation": ""
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "Drag",
+				"IsCorrect": false,
+				"Explanation": "The correct answer is Drag: For a football to fly, lift must be generated that is stronger than the weight of a football. Lift is generated by air flowing over an object. The direction of the lift force will always be perpendicular to the direction the air is flowing."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "Gravity",
+				"IsCorrect": false,
+				"Explanation": "The correct answer is Drag: For a football to fly, lift must be generated that is stronger than the weight of a football. Lift is generated by air flowing over an object. The direction of the lift force will always be perpendicular to the direction the air is flowing."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "Thrust",
+				"IsCorrect": false,
+				"Explanation": "The correct answer is Drag: For a football to fly, lift must be generated that is stronger than the weight of a football. Lift is generated by air flowing over an object. The direction of the lift force will always be perpendicular to the direction the air is flowing."
+			}]
+		},
+		{
+			"QuestionText": "Shoulder pads play an important role in protecting the player’s body. Pads protect the shoulders during forceful tackles and absorb the shock of impact through deformation. Deformation allows the pads to:",
+			"QuestionImage": false,
+			"Shuffle": true,
+			"Answers": [{
+				"AnswerImage": false,
+				"AnswerText": "Distribute the shock of the tackle through a larger area so there is less pressure at the point of impact",
+				"IsCorrect": true,
+				"Explanation": "Fun Fact: Padding slows the deceleration of the impact by deforming. Rapid deceleration is what leads to most contact-based injuries."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "Fit to the player’s body",
+				"IsCorrect": false,
+				"Explanation": "The correct answer is to distribute the shock of the tackle through a larger area: Deformation allows the pads to distribute the shock of the tackle through a larger area so there is less pressure at the point of impact."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "Heighten pressure at the point of impact",
+				"IsCorrect": false,
+				"Explanation": "The correct answer is to distribute the shock of the tackle through a larger area: Deformation allows the pads to distribute the shock of the tackle through a larger area so there is less pressure at the point of impact."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "Prevent tackles",
+				"IsCorrect": false,
+				"Explanation": "The correct answer is to distribute the shock of the tackle through a larger area: Deformation allows the pads to distribute the shock of the tackle through a larger area so there is less pressure at the point of impact."
+			}]
+		},
+		{
+			"QuestionText": "When players catch a football, their fingers, wrists and arms act as ______ by decelerating the ball gradually and minimizing impact.",
+			"QuestionImage": false,
+			"Shuffle": true,
+			"Answers": [{
+				"AnswerImage": false,
+				"AnswerText": "Shock absorbers",
+				"IsCorrect": true,
+				"Explanation": ""
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "Propellers",
+				"IsCorrect": false,
+				"Explanation": "The correct answer is Shock absorbers: A football player’s fingers, wrists and arms act as shock absorbers by gradually decelerating the ball and minimizing impact."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "Catalysts",
+				"IsCorrect": false,
+				"Explanation": "The correct answer is Shock absorbers: A football player’s fingers, wrists and arms act as shock absorbers by gradually decelerating the ball and minimizing impact."
+			},
+			{
+				"AnswerImage": false,
+				"AnswerText": "Accelerators",
+				"IsCorrect": false,
+				"Explanation": "The correct answer is Shock absorbers: A football player’s fingers, wrists and arms act as shock absorbers by gradually decelerating the ball and minimizing impact."
+			}]
+		},
+			{
+				"QuestionText": "What’s the engineering behind a perfect punt? A punter’s center of mass should be directly over his foot, his leg should swing straight up, his momentum should be moving forward and _______.",
+				"QuestionImage": false,
+				"Shuffle": false,
+				"Answers": [{
+					"AnswerImage": false,
+					"AnswerText": "His leg should follow through upwards and completely straight past his head",
+					"IsCorrect": true,
+					"Shuffle": true,
+					"Explanation": "Fun Fact: A larger follow-through helps maximize the speed of the foot and momentum transfer during the kicking process."
+				},
+				{
+					"AnswerImage": false,
+					"AnswerText": "The leg should follow through so that it's level with the chest",
+					"IsCorrect": false,
+					"Explanation": "The correct answer is A: To execute the perfect punt, the player’s leg should follow through upwards and completely straight past the head. It is important to lift the leg past the head to maximize the ball’s height and speed."
+				},
+				{
+					"AnswerImage": false,
+					"AnswerText": "The leg should be bent and barely lifted",
+					"IsCorrect": false,
+					"Explanation": "The correct answer is A: To execute the perfect punt, the player’s leg should follow through upwards and completely straight past the head. It is important to lift the leg past the head to maximize the ball’s height and speed."
+				},
+				{
+					"AnswerImage": false,
+					"AnswerText": "The leg should immediately drop to the ground",
+					"IsCorrect": false,
+					"Explanation": "The correct answer is A: To execute the perfect punt, the player’s leg should follow through upwards and completely straight past the head. It is important to lift the leg past the head to maximize the ball’s height and speed."
+				}]
+		}],
+		"EndScreen": {
+			"Image": false,
+			"Sharing": true,
+			"SharingLabel": "What score will your friends get?",
+			"SharingMessages": {
+				"Twitter": {
+					"Message": "How much do you know about the science, technology, engineering and math behind the game of football?",
+					"Hashtags": "STEMZone"
+				},
+				"Facebook": {
+					"Message": "Why does a football spiral? Test your knowledge in our trivia game on the science, technology, engineering and math behind gridiron football."
+				}
+			},
+			"WeightedMessages": true,
+			"Messages": [
+				"Learn more about STEM on our site. They're important on the field, in the classroom and in many careers.",
+				"Learn more about STEM on our site. They're important on the field, in the classroom and in many careers.",
+				"As you can see, STEM plays a part in every moment of the game.",
+				"You have an excellent understanding of how STEM works.",
+				"100% perfect score! You're a STEM MVP!"
+			]
+		}
+	}
+}

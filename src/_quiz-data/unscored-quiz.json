@@ -1,0 +1,91 @@
+{
+	"Quiz": {
+		"Title": "Kinesiologist",
+		"Description": "Sports are physically demanding. Players rely on athletic trainers to stay in peak physical condition. Many trainers study kinesiology to help them become experts on athletic performance. A kinesiologist is someone who studies human movement. Kinesiologists help players stay healthy and return quickly from injury.",
+		"Type": "Unscored",
+		"Replayable": true,
+		"QuizIcon": "/img/quiz-react/icon-kinesiologist.png",
+		"QuizImage": "/img/quiz-react/quiz-preview-kinesiologist.jpg",
+    "CTALabel": "give it a shot",
+    "TryAgain": true,
+		"Questions": [{
+				"QuestionText": "Pro football teams use about 80 miles of athletic tape per season. What is the equivalent distance of all of that tape?",
+				"QuestionGraphic": false,
+				"Shuffle": true,
+				"Answers": [{
+						"AnswerText": "100 football fields",
+						"IsCorrect": false,
+						"Explanation": "Hint: a football field is 360 feet long. 100 fields is only about 7 miles."
+					},
+					{
+						"AnswerText": "850 football fields",
+						"IsCorrect": false,
+						"Explanation": "You're close, but 850 football fields is only about 58 miles."
+					},
+					{
+						"AnswerText": "1,173 football fields",
+						"IsCorrect": true,
+						"Explanation": ""
+					}
+				]
+			},
+			{
+				"QuestionText": "Part of a kinesiologist’s job is to monitor water loss. How much does a 300 lb lineman sweat out during exercise?",
+				"QuestionGraphic": false,
+				"Shuffle": true,
+				"Answers": [{
+					"AnswerText": "1.08 gallons",
+					"IsCorrect": true,
+					"Explanation": ""
+				},
+				{
+					"AnswerText": "2.43 gallons",
+					"IsCorrect": false,
+					"Explanation": "It may seem like it, but a lineman doesn't get quite that sweaty."
+				},
+				{
+					"AnswerText": "0.64 gallons",
+					"IsCorrect": false,
+					"Explanation": "Maybe during light exercise, but during a real workout, it's more."
+				}
+			]
+		},
+		{
+			"QuestionText": "Kinesiologists study the human body to improve athletic performance and reduce athletic injuries. How many skeletal muscles are in a person’s body?",
+			"QuestionGraphic": false,
+			"Shuffle": true,
+			"Answers": [{
+				"AnswerText": "450",
+				"IsCorrect": false,
+				"Explanation": "Seems like a lot—but it's actually even more."
+			},
+			{
+				"AnswerText": "Nearly 700",
+				"IsCorrect": true,
+				"Explanation": ""
+			},
+			{
+				"AnswerText": "875",
+				"IsCorrect": false,
+				"Explanation": "You're in the right neighborhood, but it's actually a little less."
+			}
+		]
+	}],
+			"EndScreen": {
+				"Image": "/img/quiz-react/icon-kinesiologist.png",
+				"Sharing": true,
+				"SharingLabel": "What job will your friends get?",
+				"SharingMessages": {
+					"Twitter": {
+						"Message": "Find out about the science, technology, engineering and math careers behind professional sports.",
+						"Hashtags": "STEMZone"
+					},
+					"Facebook": {
+						"Message": "The sports world needs scientists, engineers and STEM professionals of all kinds. Do you have what it takes? Try our STEM-in-Sports Career Quiz."
+					}
+				},
+				"WeightedMessages": false,
+				"Message": "Kinesiologists have to have a strong understanding of the body and how it works. If this is a field you'd like to pursue, you'll want to study biology, chemistry, and possibly medicine."
+			}
+	}
+}

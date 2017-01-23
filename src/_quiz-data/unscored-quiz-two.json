@@ -1,0 +1,91 @@
+{
+	"Quiz": {
+		"Title": "Material Scientist",
+		"Description": "Material scientists are making sports faster and safer. In football, helmets, pads, and jerseys are designed with the latest materials. Even the turf is the result of scientific innovation. Material design is the foundation of product engineering. Today's sports would look a lot different without material scientists.",
+		"Type": "Unscored",
+		"Replayable": true,
+		"QuizIcon": "/img/quiz-react/icon-material-scientist.png",
+		"QuizImage": "/img/quiz-react/quiz-preview-material-scientist.jpg",
+    "CTALabel": "want to try it?",
+    "TryAgain": true,
+		"Questions": [{
+				"QuestionText": "What technology allows scientists to produce advanced materials to improve cleats and helmets?",
+				"QuestionGraphic": false,
+				"Shuffle": true,
+				"Answers": [{
+						"AnswerText": "digital printing",
+						"IsCorrect": false,
+						"Explanation": "Digital printing refers to any kind of printing using digital media. Try a more specific guess."
+					},
+					{
+						"AnswerText": "3d printing",
+						"IsCorrect": true,
+						"Explanation": ""
+					},
+					{
+						"AnswerText": "flexography",
+						"IsCorrect": false,
+						"Explanation": "Actually flexography is a technique for printing onto cloth, plastic or other materials."
+					}
+				]
+			},
+			{
+				"QuestionText": "Aeronautical carbon fiber is known for its immense strength and minimal weight. This material, often found in airplanes, is now being used in which piece of football equipment?",
+				"QuestionGraphic": false,
+				"Shuffle": true,
+				"Answers": [{
+					"AnswerText": "helmets",
+					"IsCorrect": false,
+					"Explanation": "You're half-right ;)"
+				},
+				{
+					"AnswerText": "shoulder Pads",
+					"IsCorrect": false,
+					"Explanation": "You're half-right ;)"
+				},
+				{
+					"AnswerText": "both helmets & shoulder pads",
+					"IsCorrect": true,
+					"Explanation": ""
+				}
+			]
+		},
+		{
+			"QuestionText": "The synthetic strands in hybrid turf are made from polypropylene – which is derived from which of the following materials?",
+			"QuestionGraphic": false,
+			"Shuffle": true,
+			"Answers": [{
+				"AnswerText": "plastic",
+				"IsCorrect": false,
+				"Explanation": "Not quite. Plastic and polypropylene both come from the same source material."
+			},
+			{
+				"AnswerText": "oil",
+				"IsCorrect": true,
+				"Explanation": ""
+			},
+			{
+				"AnswerText": "carbon fiber",
+				"IsCorrect": false,
+				"Explanation": "Though used in some sports gear, carbon fiber wouldn't make good turf."
+			}
+		]
+	}],
+			"EndScreen": {
+				"Image": "/img/quiz-react/icon-material-scientist.png",
+				"Sharing": true,
+				"SharingLabel": "What job will your friends get?",
+				"SharingMessages": {
+					"Twitter": {
+						"Message": "Find out about the science, technology, engineering and math careers behind professional sports.",
+						"Hashtags": "STEMZone"
+					},
+					"Facebook": {
+						"Message": "The sports world needs scientists, engineers and STEM professionals of all kinds. Do you have what it takes? Try our STEM-in-Sports Career Quiz."
+					}
+				},
+				"WeightedMessages": false,
+				"Message": "Material scientists have to know a lot about the stuff that makes other stuff. If this field fascinates you, be sure to study chemistry, engineering and other applied sciences."
+			}
+	}
+}
