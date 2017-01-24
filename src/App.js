@@ -452,7 +452,8 @@ var QuizInterface = React.createClass({
       isAnswered: false,
       explanation: initExplanation,
       note: '',
-      correctAnswerClass: ''
+      correctAnswerClass: '',
+      answerImage: false
     }
   },
   shouldComponentUpdate(nextProps, nextState) {
@@ -463,7 +464,8 @@ var QuizInterface = React.createClass({
         isAnswered: false,
         explanation: initExplanation,
         note: '',
-        correctAnswerClass: ''
+        correctAnswerClass: '',
+        answerImage: false
       });
     }
     return true;
@@ -473,11 +475,12 @@ var QuizInterface = React.createClass({
     var answer = quiz.quizInfo.Questions[quiz.currentQuestion].Answers[key];
     // is this the "correct" answer
     var correctAnswerClass = answer.IsCorrect ? this.state.correctAnswerClass : '';
+    var answerImage = this.state.answerImage;
     var letter = arrOfLetters[key];
     var reference = 'Answer-' + key;
-    return <Answer ref={reference} key={key} index={key} answerDetails={answer} handleUpdateScore={this.props.handleUpdateScore} markAnswered={this.markAnswered} isAnswered={this.state.isAnswered} correctCssClass={correctAnswerClass} letter={letter} IsTryAgain={this.props.quiz.quizInfo.TryAgain}/>
+    return <Answer ref={reference} key={key} index={key} answerDetails={answer} handleUpdateScore={this.props.handleUpdateScore} markAnswered={this.markAnswered} isAnswered={this.state.isAnswered} correctCssClass={correctAnswerClass} letter={letter} IsTryAgain={this.props.quiz.quizInfo.TryAgain} answerImage={answerImage}/>
   },
-  markAnswered: function(isCorrect, explanation) {
+  markAnswered: function(isCorrect, explanation, answerImage) {
     var correctAnswerClass = 'correct'
     var note = 'That\'s correct!';
     if(isCorrect) {
@@ -501,7 +504,8 @@ var QuizInterface = React.createClass({
       'isAnswered': true,
       'explanation': explanation,
       'note': note,
-      'correctAnswerClass': correctAnswerClass
+      'correctAnswerClass': correctAnswerClass,
+      'answerImage': answerImage
     })
     this.props.handleTogglePreview(false);
   },
@@ -515,7 +519,8 @@ var QuizInterface = React.createClass({
       'explanation': '',
       'correctAnswerClass': '',
       'note': '',
-      'isAnswered': false
+      'isAnswered': false,
+      'answerImage': false
     });
   },
   handleReplayQuizClick: function() {
@@ -629,7 +634,8 @@ var QuizInterface = React.createClass({
       return (
         <div>
           {this.props.showPreview ? '' :
-              <div className="answer-explanation hide-xs">
+              <div className="answer-explanation">
+                <AnswerImage imgSrc={this.state.answerImage}></AnswerImage>
                 <h2>{quiz.quizInfo.Title}</h2>
                 <h4 className={this.state.correctAnswerClass}>{this.state.note}</h4>
                 {this.state.explanation}
@@ -654,12 +660,6 @@ var QuizInterface = React.createClass({
               <p>{quiz.quizInfo.Questions[quiz.currentQuestion].QuestionText}</p>
             </div>
             <AnswerList answerList={quiz.quizInfo.Questions[quiz.currentQuestion].Answers} shuffleAnswers={quiz.quizInfo.Questions[quiz.currentQuestion].Shuffle} renderAnswer={this.renderAnswer} isAnswered={this.state.isAnswered} IsTryAgain={quiz.quizInfo.TryAgain}/>
-            <div className="mobileExplanation">
-              <div className="answer-explanation">
-                <h4 className={this.state.correctAnswerClass}>{this.state.note}</h4>
-                {this.state.explanation}
-              </div>
-            </div>
             <button className="btn btn-next" disabled={!this.state.isAnswered} onClick={this.handleNextClick}>Next</button>
           </div>
           </div>
@@ -702,6 +702,18 @@ var QuizInterface = React.createClass({
       )
     } else {
       return (<div/>)
+    }
+  }
+});
+
+var AnswerImage =  React.createClass({
+  render: function() {
+    if(this.props.imgSrc) {
+      return (
+        <img className="answer-image" src={this.props.imgSrc}/>
+      )
+    } else {
+      return null;
     }
   }
 });
@@ -771,12 +783,12 @@ var Answer = React.createClass({
   handleAnswer: function() {
     if(this.props.answerDetails.IsCorrect === true) {
       // update score
-      this.props.markAnswered(true, this.props.answerDetails.Explanation);
+      this.props.markAnswered(true, this.props.answerDetails.Explanation, this.props.answerDetails.AnswerImage);
       // mark this one as correct
       this.setState({'cssClass': 'correct'});
     } else {
       // update score
-      this.props.markAnswered(false, this.props.answerDetails.Explanation);
+      this.props.markAnswered(false, this.props.answerDetails.Explanation, this.props.answerDetails.AnswerImage);
       // mark this one as incorrect
       this.setState({'cssClass': 'incorrect'});
     }

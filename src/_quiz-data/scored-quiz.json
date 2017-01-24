@@ -1,363 +1,188 @@
 {
 	"Quiz": {
-		"Title": "Football",
-		"Description": "For fans, nothing’s more exciting that football. And understanding the physics, aerodynamics, geometry, and engineering behind the sport can give you an even greater appreciation for how it all comes together.",
+		"Title": "Football Trivia Quiz",
+		"Description": "Test your football trivia and see how good you are!",
 		"Type": "Scored",
 		"Replayable": true,
 		"QuizIcon": false,
 		"TryAgain": false,
 		"Questions": [
 			{
-				"QuestionText": "Linemen tend to be slower than backs and receivers and they often  have larger, more massive bodies. This means their bodies have more _____.",
+				"QuestionText": "Which player has played in a Super Bowl with three different teams?",
 				"QuestionImage": false,
 				"Shuffle": true,
 				"Answers": [{
-						"AnswerImage": false,
-						"AnswerText": "Inertia",
+						"AnswerImage": "https://nbcprofootballtalk.files.wordpress.com/2013/06/rodwoodson.jpg",
+						"AnswerText": "Rod Woodson",
 						"IsCorrect": true,
-						"Explanation": "Fun Fact:  Inertial mass is the more correct term, but might be confusing so keep it as “Inertia.” When talking about a football game, these terms are interchangeable."
+						"Explanation": "Rod Woodson got to the Super Bowl three times: 1995 with Pittsburgh; 2000 with the Baltimore Ravens, and again in 2002 with the Raiders."
 					},
 					{
-						"AnswerImage": false,
-						"AnswerText": "Gravity",
+						"AnswerImage": "http://cdn-s3.si.com/s3fs-public/styles/si_gallery_slide/public/2015/09/30/tom-brady-salary.jpg?itok=vrhyYykC",
+						"AnswerText": "Tom Brady",
 						"IsCorrect": false,
-						"Explanation": "Gravity is a force that attracts a body toward the center of earth, or toward any other physical body having mass. The correct answer is Inertia: Linemen’s bodies have more inertia. Inertia refers to a property of matter that causes it to resist changes in velocity (speed and/or direction). The more inertia that an object has, the more mass that it has. A more massive object has a greater tendency to resist changes in its state of motion."
+						"Explanation": "While Tom Brady has played in seven Super Bowls (winning four of them as of 2017), they've all been with the New England Patriots."
 					},
 					{
-						"AnswerImage": false,
-						"AnswerText": "Motion",
+						"AnswerImage": "https://i.ytimg.com/vi/uoXla9QqIEU/maxresdefault.jpg",
+						"AnswerText": "Anquan Boldin",
 						"IsCorrect": false,
-						"Explanation": "Motion refers to the action or process of moving or being moved. The correct answer is Inertia - Linemen’s bodies have more inertia. Inertia refers to a property of matter that causes it to resist changes in velocity (speed and/or direction). The more inertia that an object has, the more mass that it has. A more massive object has a greater tendency to resist changes in its state of motion."
+						"Explanation": "Anquan Boldin has been in two Super Bowls with two different teams - the Baltimore Ravens (2012) and the Arizona Cardinals (2009)."
 					},
 					{
-						"AnswerImage": false,
-						"AnswerText": "Flexibility",
+						"AnswerImage": "http://www.profootballhof.com/assets/1/26/Elway_John_Action_180-220.jpg?483",
+						"AnswerText": "John Elway",
 						"IsCorrect": false,
-						"Explanation": "Flexibility refers to the quality of bending easily without breaking. The correct answer is Inertia: Linemen’s bodies have more inertia. Inertia refers to a property of matter that causes it to resist changes in velocity (speed and/or direction). The more inertia that an object has, the more mass that it has. A more massive object has a greater tendency to resist changes in its state of motion."
+						"Explanation": "John Elway has lead his team to five Super Bowls - but that team has always been the Denver Broncos."
 					}
 				]
 			},
 			{
-				"QuestionText": "Newton’s Third Law of Motion states that for every action there is an equal and opposite reaction. An example of Newton’s Third Law of Motion in football would be when a kicker kicks a football. What is action?",
+				"QuestionText": "Which of the positions below is a defensive position?",
 				"QuestionImage": false,
 				"Shuffle": false,
 				"Answers": [{
 					"AnswerImage": false,
-					"AnswerText": "When one object exerts a force on a second object",
+					"AnswerText": "Wingback",
+					"IsCorrect": false,
+					"Explanation": "The wingback is a halfback position that pre-dates the flaker wide receiver."
+				},
+				{
+					"AnswerImage": false,
+					"AnswerText": "Slotback",
+					"IsCorrect": false,
+					"Explanation": "The slotback is also known as the slot receiver, who appears between the split wide receiver and the last offensive linemen on that side of the ball."
+				},
+				{
+					"AnswerImage": false,
+					"AnswerText": "Gunner",
+					"IsCorrect": false,
+					"Explanation": "The gunner is not technically a position, but a role played on special teams. After a punt, gunners try and cover the punt receiver right as he catches the ball to prevent a run-back."
+				},
+				{
+					"AnswerImage": false,
+					"AnswerText": "Nickelback",
 					"IsCorrect": true,
-					"Explanation": "Fun Fact: As described in the Third Law of Motion, an opposite reaction is the football applying a force back to the player’s foot/leg (which is the impact they feel!)."
-				},
-				{
-					"AnswerImage": false,
-					"AnswerText": "When an object remains stationary",
-					"IsCorrect": false,
-					"Explanation": "The correct answer is Action. Action refers to when one object exerts a force on a second object. When a football player kicks a football, his leg exerts a force on the football."
-				},
-				{
-					"AnswerImage": false,
-					"AnswerText": "When an object falls",
-					"IsCorrect": false,
-					"Explanation": "The correct answer is Action. Action refers to when one object exerts a force on a second object. When a football player kicks a football, his leg exerts a force on the football."
-				},
-				{
-					"AnswerImage": false,
-					"AnswerText": "None of the above",
-					"IsCorrect": false,
-					"Explanation": "The correct answer is Action. Action refers to when one object exerts a force on a second object. When a football player kicks a football, his leg exerts a force on the football."
+					"Explanation": "Not only a terrible Canadian band, a Nickelback is an extra defensive halfback used to cover additional receivers."
 				}
 			]
 		},
 		{
-			"QuestionText": "When the football spins around the x axis- or horizontal axis- it ________.",
+			"QuestionText": "Which city below has had a professional football team the longest?",
 			"QuestionImage": false,
 			"Shuffle": true,
 			"Answers": [{
-				"AnswerImage": false,
-				"AnswerText": "Drops the ball to the ground",
+				"AnswerImage": "http://www.sftravel.com/sites/sftraveldev.prod.acquia-sites.com/files/SanFrancisco_0.jpg",
+				"AnswerText": "San Francisco",
 				"IsCorrect": false,
-				"Explanation": "The correct answer is Keeps the ball on its intended path. When the football spins around the x axis, it keeps the ball on its intended path."
+				"Explanation": "The 49ers started in 1946 - The Kansas City Blues were established in 1924."
 			},
 			{
-				"AnswerImage": false,
-				"AnswerText": "Moves the ball in the wrong direction",
+				"AnswerImage": "http://cdn1.buuteeq.com/upload/22852/baltimore-harbor.jpg.1920x810_0_302_10000.jpeg",
+				"AnswerText": "Baltimore",
 				"IsCorrect": false,
-				"Explanation": "The correct answer is Keeps the ball on its intended path. When the football spins around the x axis, it keeps the ball on its intended path."
+				"Explanation": "The Baltimore Colts were established in 1947, and played there until 1983. The Kansas City Blues were established in 1924."
 			},
 			{
-				"AnswerImage": false,
-				"AnswerText": "Becomes harder to catch",
-				"IsCorrect": false,
-				"Explanation": " The correct answer is Keeps the ball on its intended path. When the football spins around the x axis, it keeps the ball on its intended path."
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "Keeps the ball on its intended path",
+				"AnswerImage": "http://www.blackchickontour.com/wp-content/uploads/2013/08/The-City-of-Kansas-City.jpg",
+				"AnswerText": "Kansas City",
 				"IsCorrect": true,
-				"Explanation": "Fun Fact: Spinning the ball, or adding angular momentum, keeps the ball from tumbling wildly, and provides additional aerodynamic forces for straight flight."
+				"Explanation": "The first professional football team in Kansas City were known as the Kansas City Blues, and they were established in 1924."
+			},
+			{
+				"AnswerImage": "http://www.ninezero.com/images/1700-960/sailboats-in-boston-0a5755ca.jpg",
+				"AnswerText": "Boston",
+				"IsCorrect": false,
+				"Explanation": "The Boston Braves was the first professional football team in Boston, starting in 1932. They moved to Washington in 1937 and became the Redskins. The Kansas City Blues were established in 1924."
 			}
 			]
 		},
 		{
-			"QuestionText": "A player puts a spin on a football when they throw it or kick it. The spin creates air flow over the ball as it travels, reducing drag and the effects of air resistance. Spin also helps counter the impact of  ________, which is always trying to pull the ball to the ground.",
+			"QuestionText": "NFL Teams moving cities are a reality of professional sports in this day and age. Which team below has moved cities the most?",
 			"QuestionImage": false,
 			"Shuffle": true,
 			"Answers": [{
-				"AnswerImage": false,
-				"AnswerText": "Electrostatic force",
+				"AnswerImage": "http://prod.static.titans.clubs.nfl.com/nfl-assets/img/gbl-ico-team/TEN/logos/home/large.png",
+				"AnswerText": "Tennessee Titans",
 				"IsCorrect": false,
-				"Explanation": "The correct answer is Gravity: Gravity is always trying to pull the ball to the ground. Gravity is the force that attracts a body toward the center of the earth, or toward any other physical body having mass.."
+				"Explanation": "The Titans started out as the Houston Oilers, then became the Tennessee Oilers, based in Memphis, then became the Tennessee Titans after moving to Memphis. That's a lot of moving, but not as much as the Colts."
 			},
 			{
-				"AnswerImage": false,
-				"AnswerText": "Gravity",
+				"AnswerImage": "http://prod.static.chiefs.clubs.nfl.com/nfl-assets/img/gbl-ico-team/KC/logos/home/large.png",
+				"AnswerText": "Kansas City Chiefs",
+				"IsCorrect": false,
+				"Explanation": "The Kansas City Chiefs started out as the Houston Texans in 1960 in the AFL, but relocated to Kansas City  in 1963 where they've stayed put ever since."
+			},
+			{
+				"AnswerImage": "http://prod.static.colts.clubs.nfl.com/nfl-assets/img/gbl-ico-team/IND/logos/home/large.png",
+				"AnswerText": "Indianapolis Colts",
 				"IsCorrect": true,
-				"Explanation": ""
+				"Explanation": "The Colts have a complex history, going through many names and cities along the way. They started off as the Dayton Triangles in 1913, subsequently to Brooklyn as the Dodgers, then changing their name to the Tigers, then moved to Boston as they merged with the existing Boston Yanks, then moved back to New York as the Bulldogs in 1949 before being named back to the Yanks in 1950 after another merger. The team was dissolved and replaced by the Texan in 1951 before that team was dissolved and the Yanks came back - this time as the Baltimore Colts (the second iteration). The Colts moved to Indianapolis overnight in 1984."
 			},
 			{
-				"AnswerImage": false,
-				"AnswerText": "Air resistance",
+				"AnswerImage": "http://prod.static.rams.clubs.nfl.com/nfl-assets/img/gbl-ico-team/LA/logos/home/large.png",
+				"AnswerText": "The LA Rams",
 				"IsCorrect": false,
-				"Explanation": "The correct answer is Gravity: Gravity is always trying to pull the ball to the ground. Gravity is the force that attracts a body toward the center of the earth, or toward any other physical body having mass."
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "Magnetic force",
-				"IsCorrect": false,
-				"Explanation": "The correct answer is Gravity: Gravity is always trying to pull the ball to the ground. Gravity is the force that attracts a body toward the center of the earth, or toward any other physical body having mass."
+				"Explanation": "The LA Rams have moved from Cleveland, to Los Angeles, to St. Louis and back to Los Angeles. That's a lot of moving but not as much as the Colts."
 			}]
 		},
 		{
-			"QuestionText": "The engineering and design of sports equipment keeps players safe and playing at the top of their game. A(n) ________ inside a helmet softens the impact of a hit on the head.",
+			"QuestionText": "Who holds the record for the longest field goal?",
 			"QuestionImage": false,
 			"Shuffle": true,
 			"Answers": [{
-				"AnswerImage": false,
-				"AnswerText": "Air bladder",
+				"AnswerImage": "http://www.gannett-cdn.com/-mm-/ac1394dbdcca6a36cbf486633b129cd813095ac3/r=x404&c=534x401/local/-/media/USATODAY/USATODAY/2013/05/31/1370029550000-XXX-COLTS-69-1305311547_4_3.JPG",
+				"AnswerText": "Adam Vinitieri",
+				"IsCorrect": false,
+				"Explanation": "Adam was a good kicker, but his longest was 57 yards. The longest is 64 yards."
+			},
+			{
+				"AnswerImage": "http://prod.static.raiders.clubs.nfl.com//assets/content-stream-images/2016/09-September/092516-seabass-tn.jpg",
+				"AnswerText": "Sebastian Janikowski",
+				"IsCorrect": false,
+				"Explanation": "Close - but incorrect. Janikowski has hit from 63 yards, whereas the record stands at 64."
+			},
+			{
+				"AnswerImage": "https://s-media-cache-ak0.pinimg.com/236x/b4/2e/65/b42e652eb6c7e4ebe46d85820692f779.jpg",
+				"AnswerText": "Wayne Walker",
+				"IsCorrect": false,
+				"Explanation": "Wayne Walker is not a distance man; he holds the unfortunate title of the lowest percentage FG kicker in NFL history (40.5%). He played for Detroit from 1958 to 1972. However, he was also a Linebacker so it's a bit unfair to judge him against today's specialists."
+			},
+			{
+				"AnswerImage": "http://cdn.inquisitr.com/wp-content/uploads/2014/09/Denver-Broncos-Kicker.jpg",
+				"AnswerText": "Matt Prater",
 				"IsCorrect": true,
-				"Explanation": "Fun Fact: The air bladder provides the same protection as foam padding, reducing deceleration of the head on impact."
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "Chin strap",
-				"IsCorrect": false,
-				"Explanation": "The correct answer is Air Bladder: The air bladder is located inside the helmet and softens the impact of a hit on the head. Players inflate the air bladder in their helmet to customize the fit and minimize the transfer of impact through the helmet."
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "Face mask",
-				"IsCorrect": false,
-				"Explanation": "The correct answer is Air Bladder: The air bladder is located inside the helmet and softens the impact of a hit on the head. Players inflate the air bladder in their helmet to customize the fit and minimize the transfer of impact through the helmet."
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "Polycarbonate shell",
-				"IsCorrect": false,
-				"Explanation": "The correct answer is Air Bladder: The air bladder is located inside the helmet and softens the impact of a hit on the head. Players inflate the air bladder in their helmet to customize the fit and minimize the transfer of impact through the helmet."
+				"Explanation": "The thin mile-high air at Denver likely aided Matt in setting this record, but it stands at 63 yards, set in 2013."
 			}]
 		},
 		{
-			"QuestionText": "Major technological advances have changed the way we watch and play football. Which technological advances exist today?",
+			"QuestionText": "Madden NFL is a long-running, beloved football simulation video game that has been around since the late 1980's. Starting in 1999, each iteration of the game features a cover star. Which NFL player has NOT appeared on the cover of the Madden video game franchise?",
 			"QuestionImage": false,
 			"Shuffle": false,
 			"Answers": [{
-				"AnswerImage": false,
-				"AnswerText": "Players and coaches communicate real-time on the field via radios inside players’ helmets and coaches’ headsets",
+				"AnswerImage": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Madden10_Xbox360.jpg/200px-Madden10_Xbox360.jpg",
+				"AnswerText": "Troy Pulomalu",
 				"IsCorrect": false,
-				"Explanation": "Not quite, nice try! The correct answer is All of the above. In addition to innovations in radio, tablets are used to review and recall plays, and football gloves have a neoprene covering that helps players grip the ball and stay warm during the game."
+				"Explanation": "The Steeler safety appears alongside Cardinals wide-out Larry Fitzgerald in 2010's Madden."
 			},
 			{
-				"AnswerImage": false,
-				"AnswerText": "Tablets are used to review and recall plays",
-				"IsCorrect": false,
-				"Explanation": "Almost, well done! The correct answer is All of the above. In addition to tablets, players and coaches communicate real-time on the field via radios inside players’ helmets and coaches’ headsets. Football gloves have also come a long way, since they now have a neoprene covering that helps players grip the football and keep their hands warm during a game."
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "Football gloves have a neoprene covering that helps players grip the football and keep their hands warm during the game",
-				"IsCorrect": false,
-				"Explanation": "You are partially correct, good job! The correct answer is All of the above. In addition to advancements in football gloves, other technological advancements that have taken place include innovative tablets for reviewing plays and teams communicating real-time on the field via radios inside helmets and headsets.   "
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "All of the above",
+				"AnswerImage": "https://s-media-cache-ak0.pinimg.com/736x/d3/14/ec/d314ecff0da60ce8d59ecb89da9c97ad.jpg",
+				"AnswerText": "Tom Brady",
 				"IsCorrect": true,
-				"Explanation": ""
+				"Explanation": "As one of the most successful quarterbacks of our era, one has to imagine Tom has received offers from EA to appear as the cover star - but he has not. Perhaps he wants to avoid the Madden Curse, or maybe it conflicts with his Uggs sponsorship."
+			},
+			{
+				"AnswerImage": "https://upload.wikimedia.org/wikipedia/en/9/98/Madden2004box.jpg",
+				"AnswerText": "Michael Vick",
+				"IsCorrect": false,
+				"Explanation": "Vick appeared on the cover of Madden 2004 prior to his federal dog-fighting conviction. His speed in that version of the game was untouchable - ranked as the fastest player on the field (98/100)"
+			},
+			{
+				"AnswerImage": "https://upload.wikimedia.org/wikipedia/en/4/4c/Madden_NFL_08_Coverart.png",
+				"AnswerText": "Vince Young",
+				"IsCorrect": false,
+				"Explanation": "While mostly an NFL bust, Vince Young rode a successful college and early NFL career at Texas to a Madden cover in 08. His career took a nosedive due to injury that year and Vince never fully returned to form (although he did do well in 2009), causing much speculation about the Madden Curse."
 			}]
-		},
-		{
-			"QuestionText": "The amount of force and placement in a kickoff will determine how far and in what direction the football can travel. What is a force?",
-			"QuestionImage": false,
-			"Shuffle": false,
-			"Answers": [{
-				"AnswerImage": false,
-				"AnswerText": "A push that acts upon an object to speed up or to change its direction",
-				"IsCorrect": false,
-				"Explanation": "Almost! The correct answer is both A push that acts upon an object to speed up or to change its direction AND A pull that causes an object to slow down its motion."
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "A form of gravity",
-				"IsCorrect": false,
-				"Explanation": "This is part of the answer. The correct answer is both A push that acts upon an object to speed up or to change its direction AND A pull that causes an object to slow down its motion."
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "A pull that causes an object to slow down its motion",
-				"IsCorrect": false,
-				"Explanation": "You are partially correct! This is part of the answer. The correct answer is both A push that acts upon an object to speed up or to change its direction AND A pull that causes an object to slow down its motion."
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "Both A and C",
-				"IsCorrect": true,
-				"Explanation": ""
-			}]
-		},
-		{
-			"QuestionText": "The distance and speed of a punt depends on the angle of the kick. The optimal angle from which the kicker should direct the ball is between ______.",
-			"QuestionImage": false,
-			"Shuffle": true,
-			"Answers": [{
-				"AnswerImage": false,
-				"AnswerText": "42 and 45 degrees",
-				"IsCorrect": true,
-				"Explanation": "Fun Fact: The absolutely correct answer would be 45 degrees exactly in the absence of air resistance. With air resistance, a slightly lower angle helps the ball travel farther, while a higher angle gives the ball higher “hang” time, which is why punts are angled so high up."
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "85 and 90 degrees",
-				"IsCorrect": false,
-				"Explanation": "The correct answer is between 42 and 45 degrees: The optimal angle from which the kicker should launch the ball is between 42 and 45 degrees, as measured against the straight line that runs between the ball and the goalposts. A 45-degree projection angle maximizes the horizontal distance of a punt kick."
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "80 and 85 degrees",
-				"IsCorrect": false,
-				"Explanation": "The correct answer is between 42 and 45 degrees: The optimal angle from which the kicker should launch the ball is between 42 and 45 degrees, as measured against the straight line that runs between the ball and the goalposts. A 45-degree projection angle maximizes the horizontal distance of a punt kick."
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "22 and 25 degrees",
-				"IsCorrect": false,
-				"Explanation": "The correct answer is between 42 and 45 degrees: The optimal angle from which the kicker should launch the ball is between 42 and 45 degrees, as measured against the straight line that runs between the ball and the goalposts. A 45-degree projection angle maximizes the horizontal distance of a punt kick. "
-			}]
-		},
-		{
-			"QuestionText": "To maximize how far a football can fly, its shape and spin are optimized to introduce a force that helps oppose the effect of gravity and that is stronger than the  weight of the football. That force is called ______.",
-			"QuestionImage": false,
-			"Shuffle": true,
-			"Answers": [{
-				"AnswerImage": false,
-				"AnswerText": "Lift",
-				"IsCorrect": true,
-				"Explanation": ""
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "Drag",
-				"IsCorrect": false,
-				"Explanation": "The correct answer is Drag: For a football to fly, lift must be generated that is stronger than the weight of a football. Lift is generated by air flowing over an object. The direction of the lift force will always be perpendicular to the direction the air is flowing."
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "Gravity",
-				"IsCorrect": false,
-				"Explanation": "The correct answer is Drag: For a football to fly, lift must be generated that is stronger than the weight of a football. Lift is generated by air flowing over an object. The direction of the lift force will always be perpendicular to the direction the air is flowing."
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "Thrust",
-				"IsCorrect": false,
-				"Explanation": "The correct answer is Drag: For a football to fly, lift must be generated that is stronger than the weight of a football. Lift is generated by air flowing over an object. The direction of the lift force will always be perpendicular to the direction the air is flowing."
-			}]
-		},
-		{
-			"QuestionText": "Shoulder pads play an important role in protecting the player’s body. Pads protect the shoulders during forceful tackles and absorb the shock of impact through deformation. Deformation allows the pads to:",
-			"QuestionImage": false,
-			"Shuffle": true,
-			"Answers": [{
-				"AnswerImage": false,
-				"AnswerText": "Distribute the shock of the tackle through a larger area so there is less pressure at the point of impact",
-				"IsCorrect": true,
-				"Explanation": "Fun Fact: Padding slows the deceleration of the impact by deforming. Rapid deceleration is what leads to most contact-based injuries."
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "Fit to the player’s body",
-				"IsCorrect": false,
-				"Explanation": "The correct answer is to distribute the shock of the tackle through a larger area: Deformation allows the pads to distribute the shock of the tackle through a larger area so there is less pressure at the point of impact."
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "Heighten pressure at the point of impact",
-				"IsCorrect": false,
-				"Explanation": "The correct answer is to distribute the shock of the tackle through a larger area: Deformation allows the pads to distribute the shock of the tackle through a larger area so there is less pressure at the point of impact."
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "Prevent tackles",
-				"IsCorrect": false,
-				"Explanation": "The correct answer is to distribute the shock of the tackle through a larger area: Deformation allows the pads to distribute the shock of the tackle through a larger area so there is less pressure at the point of impact."
-			}]
-		},
-		{
-			"QuestionText": "When players catch a football, their fingers, wrists and arms act as ______ by decelerating the ball gradually and minimizing impact.",
-			"QuestionImage": false,
-			"Shuffle": true,
-			"Answers": [{
-				"AnswerImage": false,
-				"AnswerText": "Shock absorbers",
-				"IsCorrect": true,
-				"Explanation": ""
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "Propellers",
-				"IsCorrect": false,
-				"Explanation": "The correct answer is Shock absorbers: A football player’s fingers, wrists and arms act as shock absorbers by gradually decelerating the ball and minimizing impact."
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "Catalysts",
-				"IsCorrect": false,
-				"Explanation": "The correct answer is Shock absorbers: A football player’s fingers, wrists and arms act as shock absorbers by gradually decelerating the ball and minimizing impact."
-			},
-			{
-				"AnswerImage": false,
-				"AnswerText": "Accelerators",
-				"IsCorrect": false,
-				"Explanation": "The correct answer is Shock absorbers: A football player’s fingers, wrists and arms act as shock absorbers by gradually decelerating the ball and minimizing impact."
-			}]
-		},
-			{
-				"QuestionText": "What’s the engineering behind a perfect punt? A punter’s center of mass should be directly over his foot, his leg should swing straight up, his momentum should be moving forward and _______.",
-				"QuestionImage": false,
-				"Shuffle": false,
-				"Answers": [{
-					"AnswerImage": false,
-					"AnswerText": "His leg should follow through upwards and completely straight past his head",
-					"IsCorrect": true,
-					"Shuffle": true,
-					"Explanation": "Fun Fact: A larger follow-through helps maximize the speed of the foot and momentum transfer during the kicking process."
-				},
-				{
-					"AnswerImage": false,
-					"AnswerText": "The leg should follow through so that it's level with the chest",
-					"IsCorrect": false,
-					"Explanation": "The correct answer is A: To execute the perfect punt, the player’s leg should follow through upwards and completely straight past the head. It is important to lift the leg past the head to maximize the ball’s height and speed."
-				},
-				{
-					"AnswerImage": false,
-					"AnswerText": "The leg should be bent and barely lifted",
-					"IsCorrect": false,
-					"Explanation": "The correct answer is A: To execute the perfect punt, the player’s leg should follow through upwards and completely straight past the head. It is important to lift the leg past the head to maximize the ball’s height and speed."
-				},
-				{
-					"AnswerImage": false,
-					"AnswerText": "The leg should immediately drop to the ground",
-					"IsCorrect": false,
-					"Explanation": "The correct answer is A: To execute the perfect punt, the player’s leg should follow through upwards and completely straight past the head. It is important to lift the leg past the head to maximize the ball’s height and speed."
-				}]
 		}],
 		"EndScreen": {
 			"Image": false,
@@ -365,20 +190,20 @@
 			"SharingLabel": "What score will your friends get?",
 			"SharingMessages": {
 				"Twitter": {
-					"Message": "How much do you know about the science, technology, engineering and math behind the game of football?",
-					"Hashtags": "STEMZone"
+					"Message": "How much do you know about the game of football? Try our quiz to find out!",
+					"Hashtags": "Football Quiz"
 				},
 				"Facebook": {
-					"Message": "Why does a football spiral? Test your knowledge in our trivia game on the science, technology, engineering and math behind gridiron football."
+					"Message": "How much do you know about the game of football? Try our quiz to find out!"
 				}
 			},
 			"WeightedMessages": true,
 			"Messages": [
-				"Learn more about STEM on our site. They're important on the field, in the classroom and in many careers.",
-				"Learn more about STEM on our site. They're important on the field, in the classroom and in many careers.",
-				"As you can see, STEM plays a part in every moment of the game.",
-				"You have an excellent understanding of how STEM works.",
-				"100% perfect score! You're a STEM MVP!"
+				"WATERBOY - You're a football novice!.",
+				"PRACTICE SQUAD - You don't have what it takes!",
+				"SPECIAL TEAMS - Not bad - your knowledge shows, but you need to try harder to make the cut",
+				"STARTER - You've got a high football IQ!.",
+				"MVP! MVP! - 100% correct - you're a football genius."
 			]
 		}
 	}
