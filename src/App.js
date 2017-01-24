@@ -710,7 +710,9 @@ var AnswerImage =  React.createClass({
   render: function() {
     if(this.props.imgSrc) {
       return (
-        <img className="answer-image" src={this.props.imgSrc}/>
+        <div className="answer-image-wrapper">
+          <img src={this.props.imgSrc}/>
+        </div>
       )
     } else {
       return null;

@@ -3,3 +3,11 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.answer-image-wrapper {
+  width: 400px;
+}
+.answer-image-wrapper img {
+  width: 100%;
+  height: auto;
+}
