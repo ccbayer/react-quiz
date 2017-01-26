@@ -4,10 +4,14 @@ body {
   font-family: sans-serif;
 }
 
-.answer-image-wrapper {
+.answer-image-wrapper,
+.question-graphic-wrapper,
+.icon {
   width: 400px;
 }
-.answer-image-wrapper img {
+.answer-image-wrapper img,
+.question-graphic-wrapper img,
+.icon img {
   width: 100%;
   height: auto;
 }

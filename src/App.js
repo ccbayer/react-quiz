@@ -659,6 +659,7 @@ var QuizInterface = React.createClass({
             <div className="question-text">
               <p>{quiz.quizInfo.Questions[quiz.currentQuestion].QuestionText}</p>
             </div>
+            <QuestionGraphic imgSrc={quiz.quizInfo.Questions[quiz.currentQuestion].QuestionGraphic}/>
             <AnswerList answerList={quiz.quizInfo.Questions[quiz.currentQuestion].Answers} shuffleAnswers={quiz.quizInfo.Questions[quiz.currentQuestion].Shuffle} renderAnswer={this.renderAnswer} isAnswered={this.state.isAnswered} IsTryAgain={quiz.quizInfo.TryAgain}/>
             <button className="btn btn-next" disabled={!this.state.isAnswered} onClick={this.handleNextClick}>Next</button>
           </div>
@@ -719,6 +720,21 @@ var AnswerImage =  React.createClass({
     }
   }
 });
+
+var QuestionGraphic = React.createClass({
+  render: function() {
+    if(this.props.imgSrc) {
+      return (
+        <div className="question-graphic-wrapper">
+          <img src={this.props.imgSrc}/>
+        </div>
+      )
+    } else {
+      return null;
+    }
+  }
+});
+
 /* Answer List : Container for answers; shuffles answers around if configured for that question */
 var AnswerList = React.createClass({
   getInitialState: function() {
@@ -758,7 +774,7 @@ var AnswerList = React.createClass({
     var questionOptionsClass = this.props.isAnswered ? 'answer-options is-answered' : 'answer-options';
     return (
       <ul className={questionOptionsClass}>
-        {Object.keys(this.state.answers).map(this.props.renderAnswer)}
+        {Object.keys(this.props.answerList).map(this.props.renderAnswer)}
       </ul>
     )
   }

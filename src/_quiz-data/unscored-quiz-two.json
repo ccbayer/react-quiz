@@ -1,91 +1,81 @@
 {
 	"Quiz": {
-		"Title": "Material Scientist",
-		"Description": "Material scientists are making sports faster and safer. In football, helmets, pads, and jerseys are designed with the latest materials. Even the turf is the result of scientific innovation. Material design is the foundation of product engineering. Today's sports would look a lot different without material scientists.",
+		"Title": "Architecture Quiz",
+		"Description": "How familiar are you at architecture?",
 		"Type": "Unscored",
 		"Replayable": true,
-		"QuizIcon": "/img/quiz-react/icon-material-scientist.png",
-		"QuizImage": "/img/quiz-react/quiz-preview-material-scientist.jpg",
+		"QuizIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/L%27architecture._Le_pass%C3%A9.-Le_pr%C3%A9sent_%281916%29_%2814778167895%29.jpg/800px-L%27architecture._Le_pass%C3%A9.-Le_pr%C3%A9sent_%281916%29_%2814778167895%29.jpg",
+		"QuizImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/L%27architecture._Le_pass%C3%A9.-Le_pr%C3%A9sent_%281916%29_%2814778167895%29.jpg/800px-L%27architecture._Le_pass%C3%A9.-Le_pr%C3%A9sent_%281916%29_%2814778167895%29.jpg",
     "CTALabel": "want to try it?",
     "TryAgain": true,
 		"Questions": [{
-				"QuestionText": "What technology allows scientists to produce advanced materials to improve cleats and helmets?",
-				"QuestionGraphic": false,
+				"QuestionText": "Identify the home style shown below.",
+				"QuestionGraphic": "https://architecturestyles.files.wordpress.com/2011/10/p1010041.jpg",
 				"Shuffle": true,
 				"Answers": [{
-						"AnswerText": "digital printing",
-						"IsCorrect": false,
-						"Explanation": "Digital printing refers to any kind of printing using digital media. Try a more specific guess."
-					},
-					{
-						"AnswerText": "3d printing",
+						"AnswerText": "Gothic Revival",
 						"IsCorrect": true,
 						"Explanation": ""
 					},
 					{
-						"AnswerText": "flexography",
+						"AnswerText": "Victorian",
 						"IsCorrect": false,
-						"Explanation": "Actually flexography is a technique for printing onto cloth, plastic or other materials."
+						"Explanation": "Close, but not quite. Try again."
+					},
+					{
+						"AnswerText": "Mid-century",
+						"IsCorrect": false,
+						"Explanation": "Nope, that's not it. Try again."
 					}
 				]
 			},
 			{
-				"QuestionText": "Aeronautical carbon fiber is known for its immense strength and minimal weight. This material, often found in airplanes, is now being used in which piece of football equipment?",
-				"QuestionGraphic": false,
+				"QuestionText": "The roof shown is known as...",
+				"QuestionGraphic": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chicago_bungalow.jpg/250px-Chicago_bungalow.jpg",
 				"Shuffle": true,
 				"Answers": [{
-					"AnswerText": "helmets",
+					"AnswerText": "A-Frame",
 					"IsCorrect": false,
-					"Explanation": "You're half-right ;)"
+					"Explanation": "Nope - an A-Frame takes the shape of a letter A, with very steep angles."
 				},
 				{
-					"AnswerText": "shoulder Pads",
+					"AnswerText": "Gambrel",
 					"IsCorrect": false,
-					"Explanation": "You're half-right ;)"
+					"Explanation": "Nope. Gambrel roofs are 'barn-shaped', and are usually seen on Dutch Colonial homes."
 				},
 				{
-					"AnswerText": "both helmets & shoulder pads",
+					"AnswerText": "Hipped",
 					"IsCorrect": true,
-					"Explanation": ""
+					"Explanation": "The hipped roof is often pyramid-shaped, but can take many shapes. The main distinction is the sides of the roof slope from the center down towards the walls, and the area of the home with the hip has no gabel."
 				}
 			]
 		},
 		{
-			"QuestionText": "The synthetic strands in hybrid turf are made from polypropylene – which is derived from which of the following materials?",
-			"QuestionGraphic": false,
+			"QuestionText": "A window over a doorway, is known as...",
+			"QuestionGraphic": "https://s-media-cache-ak0.pinimg.com/736x/b2/75/68/b27568471107bcbc92f55fc1ead92775.jpg",
 			"Shuffle": true,
 			"Answers": [{
-				"AnswerText": "plastic",
+				"AnswerText": "Awning",
 				"IsCorrect": false,
-				"Explanation": "Not quite. Plastic and polypropylene both come from the same source material."
+				"Explanation": "Not quite, although the window can by an Awning type. Try again!"
 			},
 			{
-				"AnswerText": "oil",
+				"AnswerText": "Transom",
 				"IsCorrect": true,
 				"Explanation": ""
 			},
 			{
-				"AnswerText": "carbon fiber",
+				"AnswerText": "Bay",
 				"IsCorrect": false,
-				"Explanation": "Though used in some sports gear, carbon fiber wouldn't make good turf."
+				"Explanation": "Nope - try again"
 			}
 		]
 	}],
 			"EndScreen": {
-				"Image": "/img/quiz-react/icon-material-scientist.png",
-				"Sharing": true,
-				"SharingLabel": "What job will your friends get?",
-				"SharingMessages": {
-					"Twitter": {
-						"Message": "Find out about the science, technology, engineering and math careers behind professional sports.",
-						"Hashtags": "STEMZone"
-					},
-					"Facebook": {
-						"Message": "The sports world needs scientists, engineers and STEM professionals of all kinds. Do you have what it takes? Try our STEM-in-Sports Career Quiz."
-					}
-				},
+				"Image": "https://www.lifezette.com/wp-content/uploads/2016/05/arch.jpg",
+				"Sharing": false,
 				"WeightedMessages": false,
-				"Message": "Material scientists have to know a lot about the stuff that makes other stuff. If this field fascinates you, be sure to study chemistry, engineering and other applied sciences."
+				"Message": "Architecture is full of weird and unique terms. Learn them all!"
 			}
 	}
 }
