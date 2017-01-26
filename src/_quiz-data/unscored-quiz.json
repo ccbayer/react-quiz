@@ -1,91 +1,91 @@
 {
 	"Quiz": {
-		"Title": "Kinesiologist",
-		"Description": "Sports are physically demanding. Players rely on athletic trainers to stay in peak physical condition. Many trainers study kinesiology to help them become experts on athletic performance. A kinesiologist is someone who studies human movement. Kinesiologists help players stay healthy and return quickly from injury.",
+		"Title": "Georgraphy Quiz",
+		"Description": "How good are you at US Geography?",
 		"Type": "Unscored",
 		"Replayable": true,
-		"QuizIcon": "/img/quiz-react/icon-kinesiologist.png",
-		"QuizImage": "/img/quiz-react/quiz-preview-kinesiologist.jpg",
+		"QuizIcon": "http://www.yourchildlearns.com/online-atlas/images/map-of-united-states-2.gif",
+		"QuizImage": "http://www.yourchildlearns.com/online-atlas/images/map-of-united-states-2.gif",
     "CTALabel": "give it a shot",
     "TryAgain": true,
 		"Questions": [{
-				"QuestionText": "Pro football teams use about 80 miles of athletic tape per season. What is the equivalent distance of all of that tape?",
+				"QuestionText": "Which US State shares its border with only one other state?",
 				"QuestionGraphic": false,
 				"Shuffle": true,
 				"Answers": [{
-						"AnswerText": "100 football fields",
-						"IsCorrect": false,
-						"Explanation": "Hint: a football field is 360 feet long. 100 fields is only about 7 miles."
-					},
-					{
-						"AnswerText": "850 football fields",
-						"IsCorrect": false,
-						"Explanation": "You're close, but 850 football fields is only about 58 miles."
-					},
-					{
-						"AnswerText": "1,173 football fields",
+						"AnswerText": "Maine",
 						"IsCorrect": true,
 						"Explanation": ""
+					},
+					{
+						"AnswerText": "Texas",
+						"IsCorrect": false,
+						"Explanation": "Texas touches four other states: New Mexico, Oklahoma, Arkansas, and Louisiana"
+					},
+					{
+						"AnswerText": "Washington",
+						"IsCorrect": false,
+						"Explanation": "Washington touches two other states: Idaho and Oregon."
 					}
 				]
 			},
 			{
-				"QuestionText": "Part of a kinesiologist’s job is to monitor water loss. How much does a 300 lb lineman sweat out during exercise?",
-				"QuestionGraphic": false,
+				"QuestionText": "Which of the following states does the Mississippi River NOT run through?",
+				"QuestionGraphic": "http://peakwater.org/wp-content/uploads/2012/07/rivers07-new-orleans-mississippi_13257_600x450.jpg",
 				"Shuffle": true,
 				"Answers": [{
-					"AnswerText": "1.08 gallons",
+					"AnswerText": "Iowa",
+					"IsCorrect": false,
+					"Explanation": "The Mississippi River forms the border between Iowa and Illinois"
+				},
+				{
+					"AnswerText": "Wisconsin",
+					"IsCorrect": false,
+					"Explanation": "Wisconsin's southwestern border between Minnesota is formed by the Mississippi."
+				},
+				{
+					"AnswerText": "Indiana",
 					"IsCorrect": true,
-					"Explanation": ""
-				},
-				{
-					"AnswerText": "2.43 gallons",
-					"IsCorrect": false,
-					"Explanation": "It may seem like it, but a lineman doesn't get quite that sweaty."
-				},
-				{
-					"AnswerText": "0.64 gallons",
-					"IsCorrect": false,
-					"Explanation": "Maybe during light exercise, but during a real workout, it's more."
+					"Explanation": "Indiana doesn't touch the Mississippi - but it's close - just a ways up the Ohio river from the Mississippi."
 				}
 			]
 		},
 		{
-			"QuestionText": "Kinesiologists study the human body to improve athletic performance and reduce athletic injuries. How many skeletal muscles are in a person’s body?",
+			"QuestionText": "Which of the Great Lakes is the largest?",
 			"QuestionGraphic": false,
 			"Shuffle": true,
 			"Answers": [{
-				"AnswerText": "450",
-				"IsCorrect": false,
-				"Explanation": "Seems like a lot—but it's actually even more."
-			},
-			{
-				"AnswerText": "Nearly 700",
+				"AnswerText": "Superior",
 				"IsCorrect": true,
-				"Explanation": ""
+				"Explanation": "Technically, Lakes Superior, Michigan and Huron form one SUPERLAKE, but they are generally considered separate. In any case, Superior is the most superior."
 			},
 			{
-				"AnswerText": "875",
+				"AnswerText": "Huron",
 				"IsCorrect": false,
-				"Explanation": "You're in the right neighborhood, but it's actually a little less."
+				"Explanation": "Lake Huron is huge, but not the biggest."
+			},
+			{
+				"AnswerText": "Ontario",
+				"IsCorrect": false,
+				"Explanation": "Ontario is the smallest, though it's still really freakin' big"
+			},
+			{
+				"AnswerText": "Erie",
+				"IsCorrect": false,
+				"Explanation": "Lake Erie is not the biggest, but it is the one nearest to Cleveland. Yay!"
+			},
+			{
+				"AnswerText": "Michigan",
+				"IsCorrect": false,
+				"Explanation": "Lake Michigan is pretty big, but not the biggest. It is the longest of the Great Lakes, though, and the only one entirely in the US."
 			}
 		]
 	}],
 			"EndScreen": {
-				"Image": "/img/quiz-react/icon-kinesiologist.png",
-				"Sharing": true,
-				"SharingLabel": "What job will your friends get?",
-				"SharingMessages": {
-					"Twitter": {
-						"Message": "Find out about the science, technology, engineering and math careers behind professional sports.",
-						"Hashtags": "STEMZone"
-					},
-					"Facebook": {
-						"Message": "The sports world needs scientists, engineers and STEM professionals of all kinds. Do you have what it takes? Try our STEM-in-Sports Career Quiz."
-					}
-				},
+				"Image": "http://www.designfloat.com/blog/wp-content/uploads/2010/11/uncle-sam-11.jpg",
+				"Sharing": false,
 				"WeightedMessages": false,
-				"Message": "Kinesiologists have to have a strong understanding of the body and how it works. If this is a field you'd like to pursue, you'll want to study biology, chemistry, and possibly medicine."
+				"Message": "The US is a huge and varied country!"
 			}
 	}
 }

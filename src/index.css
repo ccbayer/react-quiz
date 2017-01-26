@@ -3,3 +3,15 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.answer-image-wrapper,
+.question-graphic-wrapper,
+.icon {
+  width: 400px;
+}
+.answer-image-wrapper img,
+.question-graphic-wrapper img,
+.icon img {
+  width: 100%;
+  height: auto;
+}
