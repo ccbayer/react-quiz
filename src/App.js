@@ -531,6 +531,7 @@ var QuizInterface = React.createClass({
     )
   },
   renderProgressIndicator(key) {
+    var key = parseInt(key, 10);
     var isActive = key < this.props.quiz.currentQuestion ? 'answered ' : '';
     var isCurrent = key == this.props.quiz.currentQuestion ? 'current' : '';
     var cssClass = isActive + isCurrent;
@@ -538,7 +539,9 @@ var QuizInterface = React.createClass({
     var index = key + 1;
     if(key < this.props.quiz.currentQuestion) {
       message = ' has been answered';
-    } {
+    } else if (key > this.props.quiz.currentQuestion){
+      message = ' has not been answered';
+    } else {
       message = ' is the current question';
     }
     return (
@@ -601,7 +604,7 @@ var QuizInterface = React.createClass({
               <div className="answer-explanation">
                 <AnswerImage imgSrc={this.state.answerImage}></AnswerImage>
                 <h2>{quiz.quizInfo.Title}</h2>
-                <h4 className={this.state.correctAnswerClass}>{this.state.note}</h4>
+                <h3 className={this.state.correctAnswerClass}>{this.state.note}</h3>
                 {this.state.explanation}
               </div>
           }
@@ -788,9 +791,10 @@ var Answer = React.createClass({
   render: function() {
     var cssTryAgain = this.props.IsTryAgain ? '' : ' not-try-again';
     var cssClass = this.props.correctCssClass + ' ' + this.state.cssClass + cssTryAgain;
+    var btnClass = this.state.cssClass === 'correct' ? 'success' : 'warning';
     return (
       <li className={cssClass}>
-        <button onClick={this.handleAnswerClick}><span>{this.props.letter}.</span> {this.props.answerDetails.AnswerText}</button>
+        <Button bsStyle={this.props.btnClass} onClick={this.handleAnswerClick}><span>{this.props.letter}.</span> {this.props.answerDetails.AnswerText}</Button>
       </li>
     )
   }
