@@ -16,7 +16,6 @@
     <title>React App</title>
   </head>
   <body>
-    <div id="root"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -31,13 +30,15 @@
     <section id="quiz-scored">
       <div class="container">
           <div class="row">
-            <div class="col-md-8">
-              <h1 class="text-center">scored quiz: football</h1>
-              <p class="text-center shim-padding">This quiz is scored!</p>
+            <div class="col-md-12 text-center">
+              <h1>scored quiz: football</h1>
+              <p>This quiz is scored!</p>
             </div>
           </div>
-          <div class="col-md-10 col-md-offset-1">
-            <div class="quiz-outer-wrapper" data-quiz="scored-quiz" data-label="play the game"></div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="quiz-outer-wrapper" data-quiz="scored-quiz" data-label="play the game"></div>
+            </div>
           </div>
         </div>
     </section>
@@ -45,13 +46,15 @@
     <section id="quiz-unscored">
       <div class="container">
           <div class="row">
-            <div class="col-md-8">
-              <h1 class="text-center">unscored quiz: us geography</h1>
-              <p class="text-center shim-padding">This quiz is unscored!</p>
+            <div class="col-md-12 text-center">
+              <h1>unscored quiz: us geography</h1>
+              <p>This quiz is unscored!</p>
             </div>
           </div>
-          <div class="col-md-10 col-md-offset-1">
-            <div class="quiz-outer-wrapper" data-quiz="unscored-quiz"></div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="quiz-outer-wrapper" data-quiz="unscored-quiz"></div>
+            </div>
           </div>
         </div>
     </section>
