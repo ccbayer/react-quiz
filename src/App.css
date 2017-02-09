@@ -22,3 +22,53 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+/* ANSWER BUTTONS */
+ul.answer-options {
+  list-style-type: none;
+  padding: 0;
+  margin: 15px 0;
+}
+ul.answer-options li {
+  margin: 10px 0;
+}
+
+ul.answer-options li a.btn::after {
+    position: absolute;
+    content: "";
+    font-family: 'Glyphicons Halflings';
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 48px;
+    top: -9px;
+  }
+ul.answer-options li.correct button {
+  background: green;
+}
+
+/* PROGRESS INDICATOR */
+ul.progress-indicator {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+ul.progress-indicator li {
+  float: left;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px 2px 0;
+  border: 1px solid #666666;
+}
+ul.progress-indicator li.answered,
+ul.progress-indicator li.current {
+  background-color: #666666;
+}
+
+ul.progress-indicator li.current::after {
+  content: "";
+  display: block;
+  background-color: #666666;
+  width: 10px;
+  margin: 12px 0 0 -1px;
+  height: 2px;
+}

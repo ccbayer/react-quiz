@@ -1,29 +1,14 @@
 import React, { Component } from 'react';
 import ReactDom from 'react-dom';
 import update from 'react-addons-update';
+import { Button, Col, Grid, Row } from 'react-bootstrap';
 // import SocialShare from 'socialshare';
 import logo from './logo.svg';
 import './App.css';
 
-/*
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
-}
-
-export default App;
-*/
+// imports bootstrap
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
 
 // react quiz
 var arrOfLetters = 'a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z'.split(',');
@@ -147,32 +132,6 @@ var QuizApp = React.createClass({
     var quiz = [];
     var _this = this;
     // this.backgroundImage(true);
-    /* $.ajax({
-        url: url,
-        dataType: 'json',
-        statusCode: {
-          404: function() {
-            console.log('404: ' + url + ' not found');
-          }
-        }
-      }).success(function(data) {
-        _this.setState({
-          isOpen: true,
-          quiz: {
-            quizInfo: data['Quiz'],
-            score: 0,
-            currentQuestion: 0,
-            maxQuestions: data['Quiz'].Questions.length,
-            showQuestion: true
-          }
-        });
-      }).error(function(data) {
-        console.log('Err:' + data);
-      }).fail(function() {
-        console.log('Quiz Not Found: ' + url);
-      });
-      */
-      console.log(url);
       var data = require(url);
       if(data) {
         _this.setState({
@@ -305,50 +264,55 @@ var QuizApp = React.createClass({
       // no quiz in state; prompt user to load it
       if(!this.state.quiz) {
         return (
-          <div className="start-btn-wrapper">
-            <button className="btn-start-quiz" onClick={this.loadQuiz}>
-              <span className="glyphicon glyphicon-remove-circle"></span>{this.props.label}
-            </button>
-          </div>
+          <Col xs={12} className="text-center">
+            <Button bsStyle="success" onClick={this.loadQuiz}>{this.props.label}</Button>
+          </Col>
         )
       // quiz has been loaded, render interface
       } else {
         return (
-          <div className="row">
+          <Grid>
+            <Row>
             <div className="quiz-content-outer-wrapper clearfix">
               <QuizInterface quiz={this.state.quiz} handleUpdateScore={this.addToScore} handleNextClick={this.nextQuestion} showQuestion={this.state.quiz.showQuestion}  handleReplayQuizClick={this.replayQuiz} description={this.state.quiz.quizInfo.Description} handleTogglePreview={this.togglePreview} isQuizGroup={false} sharingUrl={this.props.sharingUrl}/>
             </div>
-            <div className="quit-quiz">
-              <button className="btn-quit-quiz" onClick={this.removeQuiz}>exit game</button>
-            </div>
-          </div>
+            <Col xs={12} className="text-center">
+              <Button bsStyle="danger" onClick={this.removeQuiz}>exit game</Button>
+            </Col>
+          </Row>
+        </Grid>
         )
       }
     } else {
       if(this.state.quizList.length < 1) {
         return (
-          <div className="start-btn-wrapper">
-            <button className="btn-start-quiz" onClick={() => this.addQuizzesToQuizList(this.props.groupIntro)}>
-              <span className="glyphicon glyphicon-remove-circle"></span>
-              {this.props.label}
-            </button>
-          </div>
+          <Grid>
+            <Row>
+              <Col xs={12} className="text-center">
+                <Button bsStyle="success" bsSize="small" onClick={() => this.addQuizzesToQuizList(this.props.groupIntro)}>
+                  {this.props.label}
+                </Button>
+              </Col>
+            </Row>
+          </Grid>
         )
       } else {
         // quizzes are loaded into the state; render the quiz group nav and preview.
         var navId = 'quiz-group-nav-' + Math.floor((Math.random() * 1500) + 1);
         var quizStarted = this.state.quiz ? true : false;
         return (
-          <div className="row">
-            <QuizNav ref='quiz-nav' quizList={this.state.quizList} previewQuizKey={this.state.previewQuizKey} handleQuizNavClick={this.renderQuizPreview} quizStarted={quizStarted} quizCount={this.props.quizCount}/>
-            <div className="quiz-content-outer-wrapper below-nav clearfix">
-              <QuizPreview previewQuiz={this.state.quizList[this.state.previewQuizKey]} handleLoadQuiz={this.loadQuizByKey} previewQuizKey={this.state.previewQuizKey} showPreviewButton={this.state.showPreviewStartButton} showPreview={this.state.showPreview} quizStarted={quizStarted}/>
-              <QuizInterface quiz={this.state.quiz} handleUpdateScore={this.addToScore} handleNextClick={this.nextQuestion} showQuestion={this.state.quiz.showQuestion} handleReplayQuizClick={this.replayQuiz} handleTogglePreview={this.togglePreview} showPreview={this.state.showPreview} isQuizGroup={true} sharingUrl={this.props.sharingUrl}/>
-            </div>
-            <div className="quit-quiz">
-              <button className="btn-quit-quiz" onClick={this.removeQuiz}>exit game</button>
-            </div>
-          </div>
+          <Grid>
+            <Row>
+              <QuizNav ref='quiz-nav' quizList={this.state.quizList} previewQuizKey={this.state.previewQuizKey} handleQuizNavClick={this.renderQuizPreview} quizStarted={quizStarted} quizCount={this.props.quizCount}/>
+              <Col className="quiz-content-outer-wrapper below-nav clearfix">
+                <QuizPreview previewQuiz={this.state.quizList[this.state.previewQuizKey]} handleLoadQuiz={this.loadQuizByKey} previewQuizKey={this.state.previewQuizKey} showPreviewButton={this.state.showPreviewStartButton} showPreview={this.state.showPreview} quizStarted={quizStarted}/>
+                <QuizInterface quiz={this.state.quiz} handleUpdateScore={this.addToScore} handleNextClick={this.nextQuestion} showQuestion={this.state.quiz.showQuestion} handleReplayQuizClick={this.replayQuiz} handleTogglePreview={this.togglePreview} showPreview={this.state.showPreview} isQuizGroup={true} sharingUrl={this.props.sharingUrl}/>
+              </Col>
+              <Col xs={12} className="text-center">
+                <Button bsStyle="danger" onClick={this.removeQuiz}>exit game</Button>
+              </Col>
+            </Row>
+          </Grid>
         )
       }
     }
@@ -387,21 +351,21 @@ var QuizNav = React.createClass({
    return (
     <div className="quiz-group-nav-wrapper">
       <div className="quiz-group-nav-control back opacity-0">
-        <button data-target={this.state.navId} data-dir="1">
+        <Button data-target={this.state.navId} data-dir="1">
           <span className="glyphicon glyphicon-chevron-left">
             <span className="sr-only">Back</span>
           </span>
-        </button>
+        </Button>
       </div>
       <ul className={quizGroupNavClassName} id={this.state.navId} data-size={this.props.quizCount}>
         {Object.keys(this.props.quizList).map(this.renderQuizNavItem)}
       </ul>
       <div className="quiz-group-nav-control fwd">
-        <button data-target={this.state.navId} data-dir="-1">
+        <Button data-target={this.state.navId} data-dir="-1">
           <span className="glyphicon glyphicon-chevron-right">
             <span className="sr-only">Back</span>
           </span>
-        </button>
+        </Button>
       </div>
     </div>
   )
@@ -567,6 +531,7 @@ var QuizInterface = React.createClass({
     )
   },
   renderProgressIndicator(key) {
+    var key = parseInt(key, 10);
     var isActive = key < this.props.quiz.currentQuestion ? 'answered ' : '';
     var isCurrent = key == this.props.quiz.currentQuestion ? 'current' : '';
     var cssClass = isActive + isCurrent;
@@ -574,7 +539,9 @@ var QuizInterface = React.createClass({
     var index = key + 1;
     if(key < this.props.quiz.currentQuestion) {
       message = ' has been answered';
-    } {
+    } else if (key > this.props.quiz.currentQuestion){
+      message = ' has not been answered';
+    } else {
       message = ' is the current question';
     }
     return (
@@ -637,7 +604,7 @@ var QuizInterface = React.createClass({
               <div className="answer-explanation">
                 <AnswerImage imgSrc={this.state.answerImage}></AnswerImage>
                 <h2>{quiz.quizInfo.Title}</h2>
-                <h4 className={this.state.correctAnswerClass}>{this.state.note}</h4>
+                <h3 className={this.state.correctAnswerClass}>{this.state.note}</h3>
                 {this.state.explanation}
               </div>
           }
@@ -824,9 +791,10 @@ var Answer = React.createClass({
   render: function() {
     var cssTryAgain = this.props.IsTryAgain ? '' : ' not-try-again';
     var cssClass = this.props.correctCssClass + ' ' + this.state.cssClass + cssTryAgain;
+    var btnClass = this.state.cssClass === 'correct' ? 'success' : 'warning';
     return (
       <li className={cssClass}>
-        <button onClick={this.handleAnswerClick}><span>{this.props.letter}.</span> {this.props.answerDetails.AnswerText}</button>
+        <Button bsStyle={this.props.btnClass} onClick={this.handleAnswerClick}><span>{this.props.letter}.</span> {this.props.answerDetails.AnswerText}</Button>
       </li>
     )
   }
