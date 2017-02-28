@@ -296,3 +296,5 @@ const QuizInterface = React.createClass({
     }
   }
 });
+
+export default QuizInterface;
