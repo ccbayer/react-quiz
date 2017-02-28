@@ -5,6 +5,8 @@ import { Button, Col, Grid, Row } from 'react-bootstrap';
 
 // custom components
 import AnswerList from './Answers/AnswerList';
+import { Answer, AnswerImage } from './Answers/Answer';
+
 
 // helpers
 import { findPos, arrOfLetters, wrongText } from '../helpers';

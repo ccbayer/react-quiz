@@ -6,7 +6,6 @@ import { Button, Col, Grid, Row } from 'react-bootstrap';
 import logo from './logo.svg';
 import './App.css';
 
-
 // imports bootstrap
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
@@ -17,10 +16,9 @@ import QuizPreview from './Components/QuizPreview';
 import QuizInterface from './Components/QuizInterface';
 
 // helpers
-import { findPos } from 'helpers';
+import { findPos } from './helpers';
 
 // react quiz
-
 var QuizApp = React.createClass({
   getInitialState: function() {
     return {
